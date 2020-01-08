@@ -1,0 +1,838 @@
+﻿// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "Afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""A-fxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\MyAProtect.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxprint.rc""        // 打印/打印预览资源\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控件条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\A-Protect.ico"
+IDR_MyAProtectTYPE      ICON                    "res\\KernelHook.ico"
+IDI_ICON1               ICON                    "res\\KernelModule.ico"
+IDI_ICON2               ICON                    "res\\KernelThread.ico"
+IDI_ICON3               ICON                    "res\\GDriver.ico"
+IDI_ICON4               ICON                    "res\\Dispatch.ico"
+IDI_ICON5               ICON                    "res\\Process.ico"
+IDI_ICON6               ICON                    "res\\Services.ico"
+IDI_ICON7               ICON                    "res\\Tcpview.ico"
+IDI_ICON8               ICON                    "res\\Hips.ico"
+IDI_ICON9               ICON                    "res\\TcpSniffer.ico"
+IDI_ICON10              ICON                    "res\\Other.ico"
+IDI_ICON11              ICON                    "res\\new.ico"
+IDI_ICON12              ICON                    "res\\ProtectSetting.ico"
+IDI_ICON13              ICON                    "res\\Eye.ico"
+IDI_WHITE               ICON                    "res\\null.ico"
+IDI_ICON14              ICON                    "res\\A-Protect1.ico"
+IDI_ICON15              ICON                    "res\\A-ProtectDoc.ico"
+IDI_ICON16              ICON                    "res\\Nsiproxy.ico"
+IDI_ICON17              ICON                    "res\\ntfs-Fsd.ico"
+IDI_ICON18              ICON                    "res\\Ssdt.ico"
+IDI_ICON19              ICON                    "res\\tcpip.ico"
+IDI_ICON20              ICON                    "res\\本机所有数据.ico"
+IDI_ICON21              ICON                    "res\\监控设置.ico"
+IDI_ICON22              ICON                    "res\\开启监控-刷新.ico"
+IDI_ICON23              ICON                    "res\\内核钩子.ico"
+IDI_ICON24              ICON                    "res\\启动项.ico"
+IDI_ICON25              ICON                    "res\\系统回调.ico"
+IDI_ICON26              ICON                    "res\\线程创建.ico"
+IDI_ICON28              ICON                    "res\\atapi.ico"
+IDI_ICON30              ICON                    "res\\DPC定时器.ico"
+IDI_ICON34              ICON                    "res\\IO定时器.ico"
+IDI_ICON40              ICON                    "res\\ObjectHook.ico"
+IDI_ICON45              ICON                    "res\\ShadowSSDT.ico"
+IDI_ICON48              ICON                    "res\\工作队列线程.ico"
+IDI_ICON49              ICON                    "res\\键盘.ico"
+IDI_ICON50              ICON                    "res\\鼠标.ico"
+IDI_ICON51              ICON                    "res\\系统线程.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDB_SPLASH              BITMAP                  "res\\A-Protect.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出 (&E)",                     ID_Exit
+    END
+    POPUP "配置(&C)"
+    BEGIN
+        MENUITEM "开启内核安全模式 (&O)",               ID_OpenKernelType
+        MENUITEM "关闭内核安全模式 (&S)",               ID_ShutdownKernelType
+        MENUITEM "",                            2048
+        MENUITEM "开启A盾电脑防护自身保护 (&P)",           ID_ProtectProcess
+        MENUITEM "关闭A盾电脑防护自身保护 (&U)",           ID_UnProtectProcess
+        MENUITEM "",                            2048
+        MENUITEM "注册开机启动 (&B)",                 ID_Booting
+        MENUITEM "取消开机启动 (&C)",                 ID_CancelBooting
+        MENUITEM "",                            2048
+        MENUITEM "设置窗口顶置 (&S)",                 ID_WindowsOverhead
+        MENUITEM "取消窗口顶置 (&C)",                 ID_CancelTheOverhead
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "内核数据查看器 (&D)",                ID_DDCommand
+        MENUITEM "",                            2048
+        MENUITEM "手动蓝屏 (&B)",                   ID_BSOD
+    END
+    POPUP "开源(&O)"
+    BEGIN
+        MENUITEM "下载A盾开源版本 (&O)",               ID_OpenSrcDownLoad
+        MENUITEM "",                            2048
+        MENUITEM "向作者请求当前版本的驱动PDB符号 (&B)",      ID_GetPDB
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于A盾 (&A)",                   ID_About
+        MENUITEM "",                            2048
+        MENUITEM "官方网站 (&O)",                   ID_OpenUrl
+    END
+END
+
+IDR_SSDT_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看挂钩函数 (&H)",                 ID_SSDTHook
+        MENUITEM "查看所有函数 (&A)",                 ID_SSDTAllHook
+        MENUITEM "",                            2048
+        MENUITEM "脱钩当前函数Hook (&S)",             ID_UnHookSSDTHookSelect
+        MENUITEM "一键脱钩所有Hook (&A)",             ID_UnHookSSDTHookAll
+        MENUITEM "",                            2048
+        MENUITEM "复制SSDT函数到剪贴板 (&S)",           ID_CopySSDTDataToClipboard
+    END
+END
+
+IDR_SHADOWSSDT_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看挂钩函数 (&H)",                 ID_ShadowSSDTHook
+        MENUITEM "查看所有函数 (&A)",                 ID_ShadowSSDTAllHook
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&S)",                 ID_UnHookShadowSSDTHookSelect
+        MENUITEM "脱钩所有ShadowSSDT-Hook (&A)",    ID_UnHookShadowSSDTHookAll
+        MENUITEM "",                            2048
+        MENUITEM "复制ShadowSSDT函数到剪贴板 (&S)",     ID_CopyShadowSSDTDataToClipboard
+    END
+END
+
+IDR_KERNELHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "只扫描内核模块 (&S)",                ID_KernelHook
+        MENUITEM "",                            2048
+        MENUITEM "扫描关键模块(符号解析,联网使用...) (&H)",   ID_AllKernelHook
+        MENUITEM "自行选择模块(符号解析,联网使用...) (&M)",   IDM_SSMODULE
+        MENUITEM "停止当前扫描 (&S)",                 ID_StopHookScan
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_UnHookKernelHookSelect
+        MENUITEM "绕过所选函数的Hook (&B)",            ID_ByPassKernelHook
+        MENUITEM "",                            2048
+        MENUITEM "复制函数名到剪贴板 (&S)",              ID_CopyKernelHookDataToClipboard
+    END
+END
+
+IDR_KERNELMODULE_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "刷新内核模块(扫描MD5) (&K)",          ID_KernelModule
+        MENUITEM "刷新内核模块(MD5&&数字签名) (&T)",      ID_KernelModuleTrust
+        MENUITEM "",                            2048
+        MENUITEM "dump所选模块内存到文件 (&D)",          ID_DumpMemoryDataToFile
+        MENUITEM "",                            2048
+        MENUITEM "复制内核模块到剪贴板 (&S)",             ID_CopyKernelModuleDataToClipboard
+    END
+END
+
+IDR_KERNELTHREAD_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "扫描内核线程 (&T)",                 ID_KernelThreadList
+        MENUITEM "",                            2048
+        MENUITEM "清空线程日志 (&K)",                 ID_ClearKernelThreadLog
+    END
+END
+
+IDR_SYSTEMTHREAD_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "枚举系统线程 (&T)",                 ID_SystemThreadList
+        MENUITEM "",                            2048
+        MENUITEM "查看线程堆栈 (&S)",                 ID_SystemThreadStack
+        MENUITEM "",                            2048
+        MENUITEM "挂起所选线程 (&S)",                 ID_SuspendSelectThread
+        MENUITEM "恢复所选线程 (&R)",                 ID_ResumeSelectThread
+        MENUITEM "",                            2048
+        MENUITEM "结束所选线程 (&K)",                 ID_KillSelectThread
+    END
+END
+
+IDR_FILTERDRIVER_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看过滤驱动 (&D)",                 ID_FilterDriverList
+        MENUITEM "",                            2048
+        MENUITEM "摘除所选设备 (&U)",                 ID_DeleteSelectFilterDriver
+        MENUITEM "",                            2048
+    END
+END
+
+IDR_FSDHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看ntfs/FSD函数 (&F)",           ID_FsdHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_FsdHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制ntfs/FSD函数到剪贴板 (&S)",       ID_CopyFsdDataToClipboard
+    END
+END
+
+IDR_TCPIPHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看tcpip.sys函数 (&F)",          ID_TcpipHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_TcpipHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制tcpip.sys函数到剪贴板 (&S)",      ID_CopyTcpipDataToClipboard
+    END
+END
+
+IDR_NSIPHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看Nsiproxy.sys函数 (&F)",       ID_NsipHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_NsipHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制Nsiproxy.sys函数到剪贴板 (&S)",   ID_CopyNsipDataToClipboard
+    END
+END
+
+IDR_KBDCLASSHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看Kbdclass.sys函数 (&F)",       ID_KbdclassHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_KbdclassHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制Kbdclass.sys函数到剪贴板 (&S)",   ID_CopyKbdclassDataToClipboard
+    END
+END
+
+IDR_MOUCLASSHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看Mouclass.sys函数 (&F)",       ID_MouclassHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_MouclassHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制Mouclass.sys函数到剪贴板 (&S)",   ID_CopyMouclassDataToClipboard
+    END
+END
+
+IDR_ATAPIHOOK_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "查看Atapi.sys函数 (&F)",          ID_AtapiHookList
+        MENUITEM "",                            2048
+        MENUITEM "脱钩所选函数 (&U)",                 ID_AtapiHookResetOne
+        MENUITEM "",                            2048
+        MENUITEM "复制Atapi.sys函数到剪贴板 (&S)",      ID_CopyAtapiDataToClipboard
+    END
+END
+
+IDR_TCPVIEW_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "刷新网络连接 (&N)",                 ID_Tcpview
+        MENUITEM "",                            2048
+        MENUITEM "终止所选进程 (&T)",                 ID_KillTcpProcess
+    END
+END
+
+IDR_HIPSLOG_MENU MENU
+BEGIN
+    POPUP "选项"
+    BEGIN
+        MENUITEM "查看防御日志 (&L)",                 ID_HipsLog
+        MENUITEM "重启后“查看防御日志” (&N)",            ID_ConnectScan
+        MENUITEM "",                            2048
+        MENUITEM "导出防御日志 (&S)",                 ID_SaveToFile
+        MENUITEM "",                            2048
+        MENUITEM "清空防御日志 (&C)",                 ID_ClearListLog
+    END
+END
+
+IDR_SERVICES_MENU MENU
+BEGIN
+    POPUP "选项"
+    BEGIN
+        MENUITEM "常规扫描(扫描MD5) (&S)",            ID_GetServicesList
+        MENUITEM "常规扫描(MD5&&数字签名) (&T)",        ID_GetServicesListByTrust
+        MENUITEM "深度扫描 (&R)",                   ID_RestartToGetServicesList
+        MENUITEM "",                            2048
+        MENUITEM "只看启动中服务 (&R)",                ID_StartOnly
+        MENUITEM "只看非认证服务 (&T)",                ID_UnTrustOnly
+        MENUITEM "",                            2048
+        MENUITEM "启动",                          ID_StartServices
+        MENUITEM "停止",                          ID_StopServices
+        MENUITEM "",                            2048
+        MENUITEM "手动",                          ID_ManualServices
+        MENUITEM "自动",                          ID_AutoServices
+        MENUITEM "禁用",                          ID_DisableServices
+        MENUITEM "删除",                          ID_DeleteServices
+    END
+END
+
+IDR_PROCESS_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "刷新进程列表(扫描MD5) (&P)",          ID_Process
+        MENUITEM "刷新进程列表(MD5&&数字签名) (&T)",      ID_ProcessTrust
+        MENUITEM "",                            2048
+        MENUITEM "效验文件数字签名 (&T)",               ID_TrustProcFile
+        MENUITEM "效验文件MD5 (&S)",                ID_ProcessVerify
+        MENUITEM "",                            2048
+        MENUITEM "查看进程模块(扫描MD5) (&M)",          ID_ProcessModule
+        MENUITEM "查看进程模块(MD5&&数字签名) (&T)",      ID_ProcessModuleTrust
+        MENUITEM "查看进程线程 (&T)",                 ID_ProcessThread
+        MENUITEM "占用文件句柄 (&H)",                 ID_ProcessHandle
+        MENUITEM "",                            2048
+        MENUITEM "终止所选进程 (&T)",                 ID_KillProcess
+        MENUITEM "终止所选进程并删除文件 (&D)",            ID_KillProcessDeleteFile
+        MENUITEM "",                            2048
+        MENUITEM "挂起所选进程 (&S)",                 ID_SuspendSelectProcess
+        MENUITEM "恢复所选进程 (&R)",                 ID_ResumeSelectProcess
+        MENUITEM "",                            2048
+        MENUITEM "在进程中查找DLL模块 (&S)",            ID_QueryAllProcessModule
+        MENUITEM "没有数字签字DLL模块 (&T)",            ID_DLLModuleWithOutTrust
+        MENUITEM "",                            2048
+        MENUITEM "复制进程路径到剪贴板 (&S)",             ID_CopyProcessDataToClipboard
+        MENUITEM "复制进程md5值到剪贴板 (&M)",           ID_CopyProcessMD5ToClipboard
+        MENUITEM "google搜索进程信息 (&G)",           ID_SearchProcessWithGoogle
+        MENUITEM "查看进程文件的属性 (&F)",              ID_GetProcessFilePath
+    END
+END
+
+IDR_DLLMODULE_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "卸载所选DLL模块 (&U)",              ID_UnLoadDLLModule
+        MENUITEM "卸载所选DLL模块并删除文件 (&L)",         ID_UnLoadDLLModuleAndDeleteFile
+        MENUITEM "",                            2048
+        MENUITEM "效验文件数字签名 (&T)",               ID_TrustDllFile
+        MENUITEM "",                            2048
+        MENUITEM "验证所选DLL模块是否由svchost启动 (&S)",  ID_LookupDLLInServices
+        MENUITEM "",                            2048
+        MENUITEM "复制DLL路径到剪贴板 (&S)",            ID_CopyDLLDataToClipboard
+    END
+END
+
+IDR_DPCTIMER_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "枚举Dpc定时器 (&D)",               ID_DpcTimerList
+        MENUITEM "摘除所选定时器 (&K)",                ID_KillDpcTimer
+        MENUITEM "",                            2048
+        MENUITEM "复制模块路径到剪贴板 (&S)",             ID_CopyDpcTimerDataToClipboard
+    END
+END
+
+IDR_SYSTEMNOTIFY_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "枚举系统回调 (&S)",                 ID_SystemNotifyList
+        MENUITEM "摘除所选回调 (&K)",                 ID_KillSystemNotify
+        MENUITEM "",                            2048
+        MENUITEM "复制回调模块到剪贴板 (&S)",             ID_CopySystemNotifyDataToClipboard
+    END
+END
+
+IDR_PROCESSTHREAD_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "枚举进程线程 (&T)",                 ID_ProcessThreadList
+        MENUITEM "",                            2048
+        MENUITEM "挂起所选线程 (&S)",                 ID_SuspendSelectProcessThread
+        MENUITEM "恢复所选线程 (&R)",                 ID_ResumeSelectProcessThread
+        MENUITEM "",                            2048
+        MENUITEM "结束所选线程 (&K)",                 ID_KillSelectProcessThread
+        MENUITEM "",                            2048
+    END
+END
+
+IDR_TCPSNIFFER_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "",                            2048
+    END
+END
+
+IDR_WORK_QUEUE_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "刷新 (&R)",                     ID_WrokQueue
+        MENUITEM "",                            2048
+        MENUITEM "挂起WorkQueue线程 (&S)",          ID_SuspendWrokQueue
+        MENUITEM "恢复WorkQueue线程 (&R)",          ID_ResumeWrokQueue
+        MENUITEM "",                            2048
+        MENUITEM "结束WorkQueue线程 (&K)",          ID_KillWrokQueue
+        MENUITEM "",                            2048
+    END
+END
+
+IDR_IOTIMER_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "枚举IO定时器 (&I)",                ID_IoTimerList
+        MENUITEM "停止所选定时器 (&S)",                ID_StopIoTimer
+        MENUITEM "启动所选定时器 (&R)",                ID_StartIoTimer
+        MENUITEM "",                            2048
+        MENUITEM "复制模块路径到剪贴板 (&S)",             ID_CopyIoTimerDataToClipboard
+    END
+END
+
+IDR_EYE_MENU MENU
+BEGIN
+    POPUP "Options"
+    BEGIN
+        MENUITEM "鹰眼分析当前电脑 (&P)",               ID_EyePC
+        MENUITEM "鹰眼分析执行文件 (&B)",               ID_EyeBIN
+        MENUITEM "",                            2048
+        MENUITEM "查看详细报告 (&B)",                 ID_EyeLookLog
+    END
+END
+
+IDR_MESSAGE_HOOK_MENU MENU
+BEGIN
+    POPUP "选项"
+    BEGIN
+        MENUITEM "刷新钩子 (&R)",               ID_MessageHookFunction
+        MENUITEM "",                            2048
+    END
+END
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 171, 72
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 A盾电脑防护"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "A盾电脑防护 LE 2012-0.4.3",IDC_STATIC,42,7,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012-2022",IDC_STATIC,42,19,114,8
+    DEFPUSHBUTTON   "确定",IDOK,114,50,50,14,WS_GROUP
+    LTEXT           "http://www.3600safe.com",IDC_STATIC,42,32,94,8
+END
+
+IDD_MYAProtect_FORM DIALOGEX 0, 0, 477, 279
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_NOHSCROLL | TVS_INFOTIP | WS_TABSTOP,0,0,81,254,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_LIST | LVS_ALIGNLEFT | WS_TABSTOP,80,0,397,254,WS_EX_DLGMODALFRAME
+    LTEXT           "空闲",IDC_DebugStatus,305,263,165,10
+    LTEXT           "空闲",IDC_InterNetInfo,4,263,261,9
+    PUSHBUTTON      "详情...",IDC_OpenURL,267,262,31,11
+    GROUPBOX        "",IDC_STATIC,1,254,299,22
+    GROUPBOX        "",IDC_STATIC,302,254,174,22
+END
+
+IDD_DLG_PROMODULE DIALOGEX 0, 0, 433, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_SMALLICON | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,433,162
+    PUSHBUTTON      "确定",IDC_BTN_CLOSE,7,165,50,14
+    LTEXT           "空闲",IDC_DllDebugStatus,71,167,355,14
+END
+
+IDD_DLG_PROCESSSEARCH DIALOGEX 0, 0, 489, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "进程信息查找"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查找",ID_BTN_SEARCH,257,10,50,14
+    EDITTEXT        IDC_EDIT_FINDINFO,146,9,103,14,ES_AUTOHSCROLL
+    LTEXT           "请输入要查找的内容（区分大小写）：",IDC_STATIC_TITLE,5,12,137,8
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_SMALLICON | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,8,36,473,175
+    GROUPBOX        "",IDC_STATIC,3,27,482,206
+    LTEXT           "支持通用字符比如 Syst、6to",IDC_STATIC,372,12,108,8
+    LTEXT           "空闲",IDC_SearchStatus,10,218,467,8
+    DEFPUSHBUTTON   "停止",ID_STOP_SEARCH,314,10,50,14
+END
+
+IDD_DLG_SNIFFERSETTING DIALOGEX 0, 0, 193, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "监控设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定",IDOK,131,55,50,14
+    EDITTEXT        IDC_EDIT1,69,10,112,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,54,30,127,12,ES_AUTOHSCROLL
+    LTEXT           "要监控的数据：",IDC_STATIC,10,11,57,8
+    LTEXT           "数据描述：",IDC_STATIC,11,34,41,8
+END
+
+IDD_PROTECTSETTING DIALOGEX 0, 0, 300, 115
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "手工杀&&毒配置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "强制删除文件",IDC_DeleteFile,11,15,60,21
+    PUSHBUTTON      "禁止加载驱动",IDC_DisLoadDriver,81,15,61,21
+    PUSHBUTTON      "禁止创建进程",IDC_DisCreateProcess,152,15,59,20
+    PUSHBUTTON      "禁止创建文件",IDC_DisCreateFile,223,15,59,20
+    PUSHBUTTON      "禁止服务回写",IDC_DisSrvReset,12,45,59,21
+    PUSHBUTTON      "禁止内核线程",IDC_DisKernelThread,82,45,59,20
+    PUSHBUTTON      "强制环保重启",IDC_ShutdownSystem,152,45,59,21
+    PUSHBUTTON      "一键卸载360",IDC_Uninstall360,223,44,59,21
+    GROUPBOX        "",IDC_STATIC,4,2,292,109
+    PUSHBUTTON      "禁止全局钩子",IDC_DisUserHook,12,75,59,21
+    PUSHBUTTON      "关闭DLL挟持防护",IDC_DisDllFuck,82,75,69,20
+END
+
+IDD_DLG_STACKTHREAD DIALOGEX 0, 0, 451, 293
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "线程堆栈"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,4,275,50,14
+    EDITTEXT        IDC_EDIT1,0,0,216,270,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,216,0,235,270
+    PUSHBUTTON      "解析堆栈(必须联网)",IDC_ReadPDB,220,275,81,14
+    LTEXT           "空闲",IDC_StackDebug,307,278,140,13
+END
+
+IDD_DLG_KERNALDATA DIALOGEX 0, 0, 336, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "内核数据查看器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",ID_BTNOK,277,260,50,14
+    LTEXT           "要查看的地址：",IDC_STATIC,8,263,57,8
+    LTEXT           "大小：",IDC_STATIC,180,263,30,8
+    EDITTEXT        IDC_EDIT_LOOKUPSIZE,205,260,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHOWKERNELDATA,0,0,334,252,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    GROUPBOX        "",IDC_STATIC,1,250,333,31
+    EDITTEXT        IDC_COMBO_KERNELBASE,65,260,110,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_SKMHOOK DIALOGEX 0, 0, 564, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "所选模块InlineHook"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,255,224,50,14
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,563,218
+END
+
+IDD_DLG_SELECTANYMODELE DIALOGEX 0, 0, 290, 251
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择要扫描模块"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SELECTANYMODULE,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,290,224
+    PUSHBUTTON      "扫描",IDC_BTN_SCAN,226,230,50,14
+    PUSHBUTTON      "全选",IDC_BTN_SELECTALL,153,230,50,14
+    PUSHBUTTON      "取消",IDC_BTN_CANCELSELECT,100,230,50,14
+    GROUPBOX        "",IDC_STATIC,215,222,72,26
+    GROUPBOX        "",IDC_STATIC,91,222,121,26
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,3,0
+ PRODUCTVERSION 0,4,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "http://www.3600safe.com/"
+            VALUE "FileDescription", "A盾电脑防护，手工查杀Virus && Rootkit"
+            VALUE "FileVersion", "0.4.3.0"
+            VALUE "InternalName", "A-Protect.exe"
+            VALUE "LegalCopyright", "http://www.3600safe.com/ 保留所有权利。"
+            VALUE "OriginalFilename", "A-Protect.exe"
+            VALUE "ProductName", "A盾电脑防护"
+            VALUE "ProductVersion", "0.4.3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+    END
+
+    IDD_MYAProtect_FORM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_DLG_PROMODULE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_DLG_PROCESSSEARCH, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_SNIFFERSETTING, DIALOG
+    BEGIN
+    END
+
+    IDD_PROTECTSETTING, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_DLG_STACKTHREAD, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_KERNALDATA, DIALOG
+    BEGIN
+        RIGHTMARGIN, 334
+    END
+
+    IDD_DLG_SKMHOOK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 293
+    END
+
+    IDD_DLG_SELECTANYMODELE, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "A-Protect\n\nAProtect\n\n\nMyAProtect.Document\nAProtect.Document"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\MyAProtect.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxprint.rc"        // 打印/打印预览资源
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控件条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
